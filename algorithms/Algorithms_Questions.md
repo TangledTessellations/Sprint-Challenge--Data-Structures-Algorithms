@@ -22,3 +22,5 @@ c)  bunnyEars = function(bunnies) {
 
 **Exercise II**:
 Suppose that you have an _n_-story building and plenty of eggs. Suppose also that an egg gets broken if it is thrown off floor _f_ or higher, and doesn't get broken if dropped off a floor less than floor _f_. Devise a strategy to determine the value of _f_ such that the number of dropped eggs is minimized.
+
+I would first drop an egg off of the middle floor, then if the egg breaks, divide the number of floors between the ground and my standing point in half, and drop another egg. I would repeat this process until i had found the floor f. 
