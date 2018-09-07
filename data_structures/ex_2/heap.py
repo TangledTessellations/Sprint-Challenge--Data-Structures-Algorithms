@@ -3,10 +3,8 @@ def heapsort(arr):
   sorted = []
   for item in arr:
     heap.insert(item)
-  print(arr)
   for i in range(len(arr)):
     sorted.insert(0, heap.delete())
-  print(sorted)
   return sorted
  
 
